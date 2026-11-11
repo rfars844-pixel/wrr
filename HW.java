@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class HW {
 
-    // Node class
+  .
     static class Node {
         String value;
         Node left;
@@ -15,7 +15,7 @@ public class HW {
         }
     }
 
-    // Check if the value is an operator
+.
     public static boolean isOperator(String value) {
         return value.equals("+") ||
                value.equals("-") ||
@@ -23,7 +23,7 @@ public class HW {
                value.equals("/");
     }
 
-    // 1. Build Expression Tree from Postfix
+    
     public static Node buildTree(String postfix) {
 
         Stack<Node> stack = new Stack<>();
